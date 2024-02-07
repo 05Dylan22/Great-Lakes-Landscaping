@@ -8,3 +8,18 @@
 .home-hero-logo {
   width: 100vw;
 }
+
+.header {
+  height: 65px;
+  display: flex;
+  align-items: center;
+}
+
+.contact-btn {
+  color: white;
+  text-decoration: none;
+  border: none;
+  border-radius: 10px;
+  background-color: #32a0fe;
+  padding: 10px 8px;
+}
