@@ -1,11 +1,10 @@
 .home-hero {
-  height: 500px;
+  height: 90vh;
   display: grid;
   align-items: center;
   position: relative;
 }
 
 .home-hero-logo {
-  width: 99vw;
-  margin: auto;
+  width: 100vw;
 }
