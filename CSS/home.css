@@ -1,3 +1,7 @@
+body {
+  overflow-x: hidden;
+}
+
 .home-hero {
   height: 90vh;
   display: grid;
@@ -13,6 +17,7 @@
   height: 65px;
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 .contact-btn {
@@ -22,4 +27,19 @@
   border-radius: 10px;
   background-color: #32a0fe;
   padding: 10px 8px;
+}
+
+.hamburger-menu {
+  height: 55%;
+  width: 40px;
+  display: grid;
+  align-items: center;
+}
+
+.hamburger-bar {
+  height: 6px;
+  border: none;
+  border-radius: 20px;
+  width: 100%;
+  background-color: black;
 }
