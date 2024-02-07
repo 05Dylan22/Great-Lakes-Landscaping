@@ -3,14 +3,14 @@ body {
 }
 
 .home-hero {
-  height: 90vh;
+  height: 500px;
   display: grid;
   align-items: center;
   position: relative;
 }
 
 .home-hero-logo {
-  width: 100vw;
+  width: 100%;
 }
 
 .header {
@@ -42,4 +42,85 @@ body {
   border-radius: 20px;
   width: 100%;
   background-color: black;
+}
+
+.hamburger-slideout {
+  background-color: rgb(219, 219, 219);
+  z-index: 100;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transform: translateX(-100%);
+}
+
+.hamburger-slideout > nav > a {
+  color: black;
+  display: block;
+  padding-left: 12px;
+  height: 26px;
+  text-decoration: none;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+}
+
+.hamburger-slideout > nav > a:nth-of-type(odd) {
+  background-color: rgba(50, 160, 254, 0.5);
+}
+
+.top-slideout-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 85px;
+  width: 100%;
+  margin-bottom: 24px;
+}
+
+.logo-in-slideout {
+  height: 85%;
+  margin-left: 12px;
+}
+
+.close-slideout {
+  font-size: 34px;
+  margin-right: 12px;
+}
+
+.slideout-cta-container {
+  width: 100%;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.slideout-cta-title {
+  text-align: center;
+}
+
+.slideout-cta-container > a {
+  margin: auto;
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translateX(-100%);
+  }
+
+  100% {
+    transform: translateX(0px);
+  }
+}
+
+@keyframes slideOut {
+  0% {
+    transform: translateX(0px);
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
 }
