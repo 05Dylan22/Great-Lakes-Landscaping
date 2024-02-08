@@ -3,24 +3,38 @@ body {
   background-color: #32a0fe;
 }
 
-.home-hero {
+.small-home-hero {
   display: grid;
   align-items: center;
   position: relative;
 }
 
 @media screen and (min-width: 270px) {
-  .home-hero {
+  .small-home-hero {
     height: 500px;
   }
 
-  .home-hero-logo {
+  .small-home-hero-logo {
     width: 100%;
   }
 }
 
 @media screen and (min-width: 300px) {
-  .home-hero {
-    height: 600px;
+  .small-home-hero {
+    height: 550px;
+  }
+}
+
+@media screen and (min-width: 500px) {
+  body {
+    background-color: white;
+  }
+
+  .small-home-hero {
+    display: none;
+  }
+
+  #small-header {
+    display: none;
   }
 }
