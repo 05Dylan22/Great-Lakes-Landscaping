@@ -28,6 +28,7 @@ body {
 @media screen and (min-width: 500px) {
   body {
     background-color: white;
+    margin: 0;
   }
 
   .small-home-hero {
@@ -36,5 +37,47 @@ body {
 
   #small-header {
     display: none;
+  }
+
+  .company-photo {
+    width: 100%;
+  }
+
+  .large-header {
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .large-logo, .logo-link {
+    height: 100%;
+  }
+
+  .large-logo {
+    margin-left: 12px;
+  }
+
+  .large-nav {
+    width: 45%;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .large-header-link {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+  }
+
+  .large-contact-btn {
+    margin-right: 12px;
+    text-decoration: none;
+    color: white;
+    background-color: #32a0fe;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 16px;
+    font-size: 17px;
   }
 }
