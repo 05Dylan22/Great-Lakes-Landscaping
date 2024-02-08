@@ -4,18 +4,12 @@ body {
 }
 
 .home-hero {
-  height: 500px;
   display: grid;
   align-items: center;
   position: relative;
 }
 
-.home-hero-logo {
-  width: 100%;
-}
-
 .header {
-  height: 65px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -27,18 +21,14 @@ body {
   border: none;
   border-radius: 10px;
   background-color: white;
-  padding: 10px 8px;
 }
 
 .hamburger-menu {
-  height: 55%;
-  width: 40px;
   display: grid;
   align-items: center;
 }
 
 .hamburger-bar {
-  height: 6px;
   border: none;
   border-radius: 20px;
   width: 100%;
@@ -59,10 +49,7 @@ body {
 .hamburger-slideout > nav > a {
   color: black;
   display: block;
-  padding-left: 18px;
-  height: 32px;
   text-decoration: none;
-  font-size: 18px;
   display: flex;
   align-items: center;
 }
@@ -75,19 +62,8 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 85px;
   width: 100%;
   margin-bottom: 24px;
-}
-
-.logo-in-slideout {
-  height: 85%;
-  margin-left: 12px;
-}
-
-.close-slideout {
-  font-size: 34px;
-  margin-right: 12px;
 }
 
 .slideout-cta-container {
@@ -95,12 +71,10 @@ body {
   display: grid;
   align-items: center;
   justify-content: center;
-  margin-top: 100px;
 }
 
 .slideout-cta-title {
   text-align: center;
-  font-size: 26px;
 }
 
 .slideout-cta-container > a {
@@ -113,12 +87,96 @@ body {
   background-color: #32a0fe;
   border: none;
   border-radius: 15px;
-  padding: 14px 30px;
-  font-size: 18px;
 }
 
 @media screen and (min-width: 270px) {
-  
+  .home-hero {
+    height: 500px;
+  }
+
+  .home-hero-logo {
+    width: 100%;
+  }
+
+  .header {
+    height: 65px;
+  }
+
+  .contact-btn {
+    padding: 10px 8px;
+  }
+
+  .hamburger-menu {
+    height: 55%;
+    width: 40px;
+  }
+
+  .hamburger-bar {
+    height: 6px;
+  }
+
+  .hamburger-slideout > nav > a {
+    padding-left: 18px;
+    height: 32px;
+    font-size: 18px;
+  }
+
+  .top-slideout-menu {
+    height: 85px;
+  }
+
+  .logo-in-slideout {
+    height: 85%;
+    margin-left: 12px;
+  }
+
+  .close-slideout {
+    font-size: 34px;
+    margin-right: 12px;
+  }
+
+  .slideout-cta-container {
+    margin-top: 100px;
+  }
+
+  .slideout-cta-title {
+    font-size: 26px;
+  }
+
+  .slideout-cta-btn {
+    padding: 14px 30px;
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 300px) {
+  .home-hero {
+    height: 600px;
+  }
+
+  .hamburger-menu {
+    width: 45px;
+  }
+
+  .slideout-cta-title {
+    font-size: 28px;
+  }
+}
+
+@media screen and (min-width: 350px) {
+  .hamburger-menu {
+    margin-left: 10px;
+  }
+
+  .contact-btn {
+    margin-right: 14px;
+    padding: 10px 16px;
+    font-size: 17px;
+  }
+
+  .slideout-cta-title {
+    font-size: 32px;
+  }
 }
 
 @keyframes slideIn {
