@@ -3,6 +3,10 @@ body {
   background-color: #32a0fe;
 }
 
+body::-webkit-scrollbar {
+  display: none;
+}
+
 .small-home-hero {
   display: grid;
   align-items: center;
@@ -71,7 +75,7 @@ body {
     color: black;
     font-size: 18px;
     height: 100%;
-    width: 105px;
+    min-width: 85px;
     display: flex;
     justify-content: center;
     align-items: center;
