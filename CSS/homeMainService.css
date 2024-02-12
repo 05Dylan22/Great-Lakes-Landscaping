@@ -1,13 +1,14 @@
 .main-service-home {
   background-color: rgb(228, 222, 222);
   width: 100%;
-  height: 650px;
+  height: 100vh;
 }
 
 .home-service-cat-title {
   font-size: 32px;
   text-align: center;
   padding-top: 18px;
+  margin-top: 0;
 }
 
 .home-service-cat-desc {
