@@ -24,7 +24,7 @@ dropdown.addEventListener("mousedown", (e) => {
   e.preventDefault()
 })
 
-dropdownContainer.addEventListener("mouseover", () => {
+dropdownContainer.addEventListener("mouseenter", () => {
   servicesLink.style.animation = "remainHoverStyle 0.15s ease-in forwards"
   dropdown.style.display = "grid"
   dropdown.style.animation = "showDropdown 0.15s ease-in forwards"
