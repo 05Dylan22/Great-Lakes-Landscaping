@@ -82,7 +82,7 @@
 
 @media screen and (min-width: 650px) {
   .main-service-home {
-    height: 75vh;
+    height: 425px;
     display: flex;
     justify-content: space-around;
     position: relative;
@@ -115,7 +115,7 @@
     justify-content: start;
     position: absolute;
     left: 20%;
-    bottom: 125px;
+    bottom: 75px;
     margin: 0;
     width: fit-content;
   }
