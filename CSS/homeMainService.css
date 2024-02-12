@@ -44,7 +44,7 @@
   }
 
   .home-lawn-maint-img {
-    width: 270px;
+    width: 90%;
     display: block;
     margin: auto;
   }
@@ -56,10 +56,10 @@
 }
 
 @media screen and (min-width: 325px) {
-  .home-lawn-maint-img {
-    width: 280px;
+  .home-service-cat-title {
+    font-size: 38px;
   }
-
+  
   .home-service-cat-link {
     padding: 14px 18px;
     font-size: 18px;
@@ -67,7 +67,4 @@
 }
 
 @media screen and (min-width: 350px) {
-  .home-lawn-maint-img {
-    width: 300px;
-  }
 }
