@@ -28,7 +28,7 @@ body::-webkit-scrollbar {
   }
 
   .small-home-hero-logo {
-    width: 100%;
+    width: 90%;
   }
 }
 
@@ -65,6 +65,7 @@ body::-webkit-scrollbar {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 4px;
   }
 
   .large-logo, .logo-link {

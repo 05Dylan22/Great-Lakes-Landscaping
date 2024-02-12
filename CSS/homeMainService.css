@@ -39,6 +39,7 @@
   .home-service-cat-desc {
     width: 90%;
     margin-left: 15px;
+    line-height: 21px;
     margin-top: 0;
     margin-bottom: 0;
   }
@@ -59,7 +60,7 @@
   .home-service-cat-title {
     font-size: 38px;
   }
-  
+
   .home-service-cat-link {
     padding: 14px 18px;
     font-size: 18px;
@@ -67,4 +68,17 @@
 }
 
 @media screen and (min-width: 350px) {
+  .home-lawn-maint-img {
+    max-width: 340px;
+  }
+}
+
+@media screen and (min-width: 500px) {
+  .home-service-cat-title {
+    font-size: 42px;
+  }
+  .home-service-cat-desc {
+    width: 450px;
+    font-size: 17px;
+  }
 }
