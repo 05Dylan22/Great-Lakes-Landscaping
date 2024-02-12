@@ -136,6 +136,7 @@ body::-webkit-scrollbar {
     grid-template-columns: 1fr 1fr;
     align-items: center;
     width: calc(100px * 3);
+    z-index: 20;
   }
 
   .dropdown-link {

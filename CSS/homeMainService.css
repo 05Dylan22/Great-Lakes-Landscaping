@@ -19,7 +19,7 @@
   justify-content: end;
 }
 
-.home-service-cat-link {
+.home-service-cat-link-small, .home-service-cat-link-large {
   text-decoration: none;
   color: white;
   background-color: #32a0fe;
@@ -28,6 +28,9 @@
 }
 
 @media screen and (min-width: 270px) {
+  .home-service-cat-link-large {
+    display: none;
+  }
   .home-service-cat-title {
     font-size: 32px;
     margin-bottom: 0;
@@ -47,7 +50,7 @@
     margin: auto;
   }
 
-  .home-service-cat-link {
+  .home-service-cat-link-small {
     padding: 12px 16px;
     margin-right: 20px;
   }
@@ -58,7 +61,7 @@
     font-size: 38px;
   }
 
-  .home-service-cat-link {
+  .home-service-cat-link-small {
     padding: 14px 18px;
     font-size: 18px;
   }
@@ -90,12 +93,13 @@
 
   .service-home-left-info {
     width: 45%;
+    display: grid;
+    height: 80%;
   }
 
   .home-service-cat-title {
     font-size: 42px;
     margin-top: 30px;
-    margin-bottom: 24px;
     text-align: start;
   }
 
@@ -111,16 +115,17 @@
     margin-right: 0;
   }
 
-  .service-cat-link-container {
-    justify-content: start;
-    position: absolute;
-    left: 20%;
-    bottom: 75px;
+  .home-service-cat-link-small {
+    display: none;
     margin: 0;
-    width: fit-content;
   }
 
-  .home-service-cat-link {
-    margin: 0;
+  .home-service-cat-link-large {
+    display: block;
+    padding: 14px 18px;
+    width: fit-content;
+    height: fit-content;
+    font-size: 18px;
+    margin-top: 24px;
   }
 }
