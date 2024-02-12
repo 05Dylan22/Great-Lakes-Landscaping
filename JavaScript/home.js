@@ -20,6 +20,10 @@ const dropdownContainer = document.querySelector(".services-dropdown-container")
 const dropdown = document.querySelector(".dropdown")
 const servicesLink = document.getElementById("services")
 
+dropdown.addEventListener("mousedown", (e) => {
+  e.preventDefault()
+})
+
 dropdownContainer.addEventListener("mouseover", () => {
   servicesLink.style.animation = "remainHoverStyle 0.15s ease-in forwards"
   dropdown.style.display = "grid"
