@@ -24,17 +24,11 @@ body::-webkit-scrollbar {
   }
 
   .small-home-hero {
-    height: calc(90vh - 65px);
+    height: calc(100vh - 140px);
   }
 
   .small-home-hero-logo {
     width: 100%;
-  }
-}
-
-@media screen and (min-width: 300px) {
-  .small-home-hero {
-    height: 550px;
   }
 }
 
