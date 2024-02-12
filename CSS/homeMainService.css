@@ -1,6 +1,7 @@
 .main-service-home {
   background-color: rgb(228, 222, 222);
   width: 100%;
+  overflow: hidden;
 }
 
 .main-service-home:nth-of-type(even) {
@@ -40,7 +41,7 @@
 
   .home-service-cat-title {
     font-size: 32px;
-    margin-bottom: 12px;
+    margin-bottom: 16px;
   }
 
   .home-service-cat-desc {
@@ -134,5 +135,11 @@
     height: fit-content;
     font-size: 18px;
     margin-top: 24px;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .home-lawn-maint-img {
+    width: 320px;
   }
 }
