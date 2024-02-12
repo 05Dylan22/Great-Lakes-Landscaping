@@ -13,11 +13,13 @@ style.innerHTML = `
   border: none;
   border-radius: 10px;
   background-color: white;
+  margin-right: 14px;
 }
 
 .hamburger-menu {
   display: grid;
   align-items: center;
+  margin-left: 14px;
 }
 
 .hamburger-bar {
