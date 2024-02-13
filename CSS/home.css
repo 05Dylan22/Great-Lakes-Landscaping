@@ -19,6 +19,10 @@ body::-webkit-scrollbar {
     display: none;
   }
 
+  #large-header {
+    display: none;
+  }
+
   .large-img-container {
     display: none;
   }
@@ -46,6 +50,10 @@ body::-webkit-scrollbar {
     display: none;
   }
 
+  #large-header {
+    display: block;
+  }
+
   .large-img-container {
     width: 100%;
     margin: auto;
@@ -58,140 +66,6 @@ body::-webkit-scrollbar {
 
   .large-hero-img {
     width: 65%;
-  }
-
-  .large-header {
-    height: 65px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-bottom: 4px;
-  }
-
-  .large-logo, .logo-link {
-    height: 100%;
-  }
-
-  .large-logo {
-    margin-left: 12px;
-  }
-
-  .large-nav {
-    width: calc(100px * 3);
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .large-header-link {
-    text-decoration: none;
-    color: black;
-    font-size: 18px;
-    height: 100%;
-    width: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: all 0.15s;
-  }
-
-  .large-header-link:first-of-type {
-    height: 65px;
-  }
-
-  .large-header-link:hover {
-    background-color: #32a0fe;
-    color: white;
-  }
-
-  .large-contact-btn {
-    margin-right: 12px;
-    text-decoration: none;
-    color: white;
-    background-color: #32a0fe;
-    border: none;
-    border-radius: 10px;
-    padding: 8px 14px;
-    font-size: 17px;
-    border: 2px solid #32a0fe;
-    transition: all 0.15s;
-  }
-
-  .large-contact-btn:hover {
-    background-color: white;
-    color: #32a0fe;
-  }
-
-  .dropdown, .services-dropdown-container {
-    display: none;
-  }
-
-
-  @media (hover: hover) and (pointer: fine) {
-    #servicesForMobile {
-      display: none;
-    }
-
-    .services-dropdown-container {
-      height: 100%;
-      position: relative;
-      display: block;
-    }
-
-    .dropdown {
-      display: none;
-      position: absolute;
-      background-color: #32a0fe;
-      border: none;
-      border-bottom-left-radius: 4px;
-      border-bottom-right-radius: 4px;
-      height: 95px;
-      opacity: 0;
-      grid-template-columns: 1fr 1fr;
-      align-items: center;
-      width: calc(100px * 3);
-      z-index: 20;
-    }
-  
-    .dropdown-link {
-      text-decoration: none;
-      color: white;
-      font-size: 14px;
-      margin-left: 10px;
-      transition: all 0.15s;
-    }
-  
-    .dropdown-link:hover {
-      text-decoration: underline;
-    }
-  }
-}
-
-@media screen and (min-width: 655px) {
-  .large-header-link {
-    font-size: 20px;
-  }
-
-  .large-contact-btn {
-    padding: 10px 16px;
-    font-size: 18px;
-  }
-}
-
-@media screen and (min-width: 800px) {
-  .large-header-link {
-    min-width: 115px;
-    font-size: 22px;
-  }
-
-  .dropdown {
-    width: calc(115px * 3);
-    height: 115px;
-  }
-
-  .dropdown-link {
-    font-size: 16px;
   }
 }
 

@@ -1,4 +1,5 @@
 let el = document.getElementById("small-header")
+let largeEl = document.getElementById("large-header")
 
 customElements.whenDefined("small-header").then(() => {
   let shadow = el.shadowRoot
@@ -16,19 +17,29 @@ customElements.whenDefined("small-header").then(() => {
   })
 })
 
-const dropdownContainer = document.querySelector(".services-dropdown-container")
-const dropdown = document.querySelector(".dropdown")
-const servicesLink = document.getElementById("services")
+customElements.whenDefined("large-header").then(() => {
+  let shadow = largeEl.shadowRoot
 
-function showDropdown() {
-  servicesLink.style.animation = "remainHoverStyle 0.15s ease-in forwards"
-  dropdown.style.display = "grid"
-  dropdown.style.animation = "showDropdown 0.15s ease-in forwards"
-}
-
-dropdownContainer.addEventListener("mouseenter", showDropdown)
-
-dropdownContainer.addEventListener("mouseleave", () => {
-  servicesLink.style.animation = "removeHoverStyle 0.15s ease-in forwards"
-  dropdown.style.animation = "hideDropdown 0.15s ease-in forwards"
+  const dropdownContainer = shadow.querySelector(".services-dropdown-container")
+  const dropdown = shadow.querySelector(".dropdown")
+  const servicesLink = shadow.getElementById("services")
+  
+  function showDropdown() {
+    servicesLink.style.animation = "remainHoverStyle 0.15s ease-in forwards"
+    dropdown.style.display = "grid"
+    dropdown.style.animation = "showDropdown 0.15s ease-in forwards"
+  }
+  
+  dropdownContainer.addEventListener("mouseenter", showDropdown)
+  
+  dropdownContainer.addEventListener("mouseleave", () => {
+    servicesLink.style.animation = "removeHoverStyle 0.15s ease-in forwards"
+    dropdown.style.animation = "hideDropdown 0.15s ease-in forwards"
+  })
 })
+
+
+//FIGURE OUT METHOD FOR MAKING THE OTHER SECTIONS OF THE MAIN SERVICE CAT
+//WHETHER THAT BE A WEB COMPONENT OR HARD CODING INTO HTML FILE
+//CREATE THE OTHER SERVICE SECTIONS ONCE THIS IS DECIDED AND IMPLEMENTED
+//THEN YOU CAN BEGIN ON FOOTER
