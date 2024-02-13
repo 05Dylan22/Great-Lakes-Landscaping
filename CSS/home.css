@@ -96,6 +96,10 @@ body::-webkit-scrollbar {
     transition: all 0.15s;
   }
 
+  .large-header-link:first-of-type {
+    height: 65px;
+  }
+
   .large-header-link:hover {
     background-color: #32a0fe;
     color: white;
@@ -119,17 +123,22 @@ body::-webkit-scrollbar {
     color: #32a0fe;
   }
 
-  .services-dropdown-container {
-    height: 100%;
-    position: relative;
-  }
-
-  .dropdown {
+  .dropdown, .services-dropdown-container {
     display: none;
   }
 
 
   @media (hover: hover) and (pointer: fine) {
+    #servicesForMobile {
+      display: none;
+    }
+
+    .services-dropdown-container {
+      height: 100%;
+      position: relative;
+      display: block;
+    }
+
     .dropdown {
       display: none;
       position: absolute;
