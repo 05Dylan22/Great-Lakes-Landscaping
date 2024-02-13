@@ -24,8 +24,14 @@
   text-decoration: none;
   color: white;
   background-color: #32a0fe;
-  border: none;
+  border: 2px solid #32a0fe;
   border-radius: 10px;
+  transition: all 0.15s;
+}
+
+.home-service-cat-link-large:hover, .home-service-cat-link-small:hover {
+  background-color: white;
+  color: #32a0fe;
 }
 
 @media screen and (min-width: 270px) {
@@ -141,5 +147,31 @@
 @media screen and (min-width: 800px) {
   .home-lawn-maint-img {
     width: 320px;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .main-service-home {
+    align-items: center;
+  }
+
+  .home-service-cat-title {
+    font-size: 48px;
+  }
+
+  .home-service-cat-desc {
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .home-service-cat-link-large {
+    padding: 16px 20px;
+    font-size: 22x;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .home-lawn-maint-img {
+    width: 360px;
   }
 }
