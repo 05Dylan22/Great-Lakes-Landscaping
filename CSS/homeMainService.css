@@ -171,7 +171,12 @@
 }
 
 @media screen and (min-width: 1000px) {
+  .main-service-home {
+    justify-content: center;
+  }
+
   .home-lawn-maint-img {
     width: 360px;
+    margin-left: 100px;
   }
 }
