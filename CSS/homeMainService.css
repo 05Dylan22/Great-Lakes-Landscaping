@@ -148,6 +148,10 @@
   .home-lawn-maint-img {
     width: 320px;
   }
+
+  .home-service-cat-link-large {
+    font-size: 20px;
+  }
 }
 
 @media screen and (min-width: 900px) {
