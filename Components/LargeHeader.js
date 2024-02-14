@@ -68,6 +68,7 @@ largeStyle.innerHTML = `
   .dropdown, .services-dropdown-container {
     display: none;
   }
+
   @media (hover: hover) and (pointer: fine) {
     #servicesForMobile {
       display: none;
@@ -80,7 +81,6 @@ largeStyle.innerHTML = `
     }
   
     .dropdown {
-      display: none;
       position: absolute;
       background-color: #32a0fe;
       border: none;
@@ -130,6 +130,50 @@ largeStyle.innerHTML = `
 
   .dropdown-link {
     font-size: 16px;
+  }
+}
+@keyframes showDropdown {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes hideDropdown {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+    display: none;
+  }
+}
+
+@keyframes remainHoverStyle {
+  0% {
+    color: black;
+    background-color: white;
+  }
+
+  100% {
+    color: white;
+    background-color: #32a0fe;
+  }
+}
+
+@keyframes removeHoverStyle {
+  0% {
+    color: white;
+    background-color: #32a0fe;
+  }
+
+  100% {
+    color: black;
+    background-color: white;
   }
 }
 `
