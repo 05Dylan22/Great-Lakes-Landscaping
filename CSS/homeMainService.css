@@ -34,7 +34,7 @@
 }
 
 @media screen and (min-width: 270px) {
-  .main-service-home{
+  .main-service-home, .main-service-home-right{
     height: 100vh;
     display: grid;
     justify-content: center;
@@ -83,11 +83,25 @@
     padding: 14px 18px;
     font-size: 18px;
   }
+
+  .home-lawn-maint-img {
+    width: 85%;
+  }
 }
 
 @media screen and (min-width: 350px) {
   .home-lawn-maint-img, .home-service-img-2 {
     max-width: 340px;
+  }
+
+  .home-lawn-maint-img {
+    width: 75%;
+  }
+}
+
+@media screen and (min-width: 415px) {
+  .home-lawn-maint-img {
+    width: 70%;
   }
 }
 
