@@ -1,7 +1,6 @@
 .main-service-home {
   background-color: rgb(228, 222, 222);
   width: 100%;
-  overflow: hidden;
 }
 
 .main-service-home:nth-of-type(even) {
@@ -35,10 +34,15 @@
 }
 
 @media screen and (min-width: 270px) {
-  .main-service-home {
+  .main-service-home{
     height: 100vh;
     display: grid;
     justify-content: center;
+    overflow: hidden;
+  }
+
+  .main-service-home-right {
+    height: 100%;
   }
 
   .home-service-cat-link-large {
@@ -58,7 +62,7 @@
     margin-bottom: 0;
   }
 
-  .home-lawn-maint-img {
+  .home-lawn-maint-img, .home-service-img-2 {
     width: 90%;
     display: block;
     margin: auto;
@@ -82,7 +86,7 @@
 }
 
 @media screen and (min-width: 350px) {
-  .home-lawn-maint-img {
+  .home-lawn-maint-img, .home-service-img-2 {
     max-width: 340px;
   }
 }
@@ -106,6 +110,13 @@
     position: relative;
   }
 
+  .main-service-home-right {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+  }
+
   .service-home-left-info {
     width: 45%;
     display: grid;
@@ -123,8 +134,8 @@
     margin-left: 0px;
   }
 
-  .home-lawn-maint-img {
-    width: 290px;
+  .home-lawn-maint-img, .home-service-img-2 {
+    height: 100%;
     margin-top: auto;
     margin-left: 0;
     margin-right: 0;
@@ -145,17 +156,13 @@
 }
 
 @media screen and (min-width: 800px) {
-  .home-lawn-maint-img {
-    width: 320px;
-  }
-
   .home-service-cat-link-large {
     font-size: 20px;
   }
 }
 
 @media screen and (min-width: 900px) {
-  .main-service-home {
+  .main-service-home, .main-service-home-right {
     align-items: center;
   }
 
@@ -175,12 +182,16 @@
 }
 
 @media screen and (min-width: 1000px) {
-  .main-service-home {
+  .main-service-home, .main-service-home-right {
     justify-content: center;
   }
 
   .home-lawn-maint-img {
-    width: 360px;
     margin-left: 100px;
+  }
+
+  .home-service-img-2 {
+    margin-right: 100px;
+    zoom: 1.25;
   }
 }
