@@ -62,7 +62,7 @@
     margin-bottom: 0;
   }
 
-  .home-lawn-maint-img, .home-service-img-2 {
+  .home-lawn-maint-img, .home-service-img-2, .home-lawn-maint-img-3 {
     width: 90%;
     display: block;
     margin: auto;
@@ -114,6 +114,10 @@
     width: 450px;
     font-size: 17px;
   }
+
+  .home-lawn-maint-img-3 {
+    width: 80%;
+  }
 }
 
 @media screen and (min-width: 650px) {
@@ -155,6 +159,13 @@
     margin-right: 0;
   }
 
+  .home-lawn-maint-img-3 {
+    width: 50%;
+    margin: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
   .home-service-cat-link-small, .service-cat-link-container {
     display: none;
   }
@@ -192,6 +203,11 @@
   .home-service-cat-link-large {
     padding: 16px 20px;
     font-size: 22x;
+  }
+
+  .home-lawn-maint-img-3 {
+    width: 50%;
+    max-width: 505px;
   }
 }
 
