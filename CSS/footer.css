@@ -1,0 +1,77 @@
+.footer {
+  background-color: black;
+  color: rgb(228, 222, 222);
+  padding-bottom: 36px;
+}
+
+.footer-top-contact {
+  width: 100%;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-contact-title {
+  font-size: 36px;
+  text-align: center;
+  padding-top: 24px;
+}
+
+.footer-contact-btn {
+  text-decoration: none;
+  color: white;
+  background-color: #32a0fe;
+  border: none;
+  border-radius: 10px;
+  padding: 24px 30px;
+  font-size: 24px;
+  width: fit-content;
+  margin: auto;
+}
+
+.footer-bus-info-map {
+  display: flex;
+  justify-content: space-around;
+  width: 75%;
+  margin: auto;
+  margin-top: 74px;
+}
+
+.bottom-footer {
+  display: flex;
+  margin-top: 54px;
+}
+
+.map {
+  width: 400px;
+  height: 400px;
+  border: 1px solid white;
+  background-color: #32a0fe;
+}
+
+.site-map {
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+}
+
+.site-map-sect-title {
+  color: #32a0fe;
+}
+
+.site-map-link {
+  margin: 0;
+  margin-bottom: 4px;
+}
+
+.footer-logo-and-name {
+  display: flex;
+}
+
+.footer-logo-and-name > p {
+  font-size: 54px;
+  color: #32a0fe;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
