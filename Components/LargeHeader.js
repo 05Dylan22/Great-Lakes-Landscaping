@@ -183,24 +183,24 @@ largeTemplate.innerHTML = `
   <img class="large-logo" src="./Images/BlueLogo.png" alt="Company Logo">
 </a>
 <nav class="large-nav">
-  <a href="./Pages/allServices.html" class="large-header-link" id="servicesForMobile">Services</a>
+  <a href="./allServices.html" class="large-header-link" id="servicesForMobile">Services</a>
   <div class="services-dropdown-container">
-    <a href="./Pages/allServices.html" class="large-header-link" id="services">Services</a>
+    <a href="./allServices.html" class="large-header-link" id="services">Services</a>
     <div class="dropdown">
-      <a href="./Pages/SpecificService.html" class="dropdown-link">Mowing</a>
-      <a href="./Pages/SpecificService.html" class="dropdown-link">Mulching</a>
-      <a href="./Pages/SpecificService.html" class="dropdown-link">General Cleanup</a>
-      <a href="./Pages/SpecificService.html" class="dropdown-link">Spring Cleanup</a>
-      <a href="./Pages/SpecificService.html" class="dropdown-link">Fall Cleanup</a>
-      <a href="./Pages/SpecificService.html" class="dropdown-link">Weeding</a>
-      <a href="./Pages/SpecificService.html" class="dropdown-link">Overseeding</a>
-      <a href="./Pages/SpecificService.html" class="dropdown-link">Powerwashing</a>
+      <a href="./SpecificService.html" class="dropdown-link">Mowing</a>
+      <a href="./SpecificService.html" class="dropdown-link">Mulching</a>
+      <a href="./SpecificService.html" class="dropdown-link">General Cleanup</a>
+      <a href="./SpecificService.html" class="dropdown-link">Spring Cleanup</a>
+      <a href="./SpecificService.html" class="dropdown-link">Fall Cleanup</a>
+      <a href="./SpecificService.html" class="dropdown-link">Weeding</a>
+      <a href="./SpecificService.html" class="dropdown-link">Overseeding</a>
+      <a href="./SpecificService.html" class="dropdown-link">Powerwashing</a>
     </div>
   </div>
-  <a href="./Pages/about.html" class="large-header-link">About</a>
-  <a href="./Pages/ourWork.html" class="large-header-link">Our Work</a>
+  <a href="./about.html" class="large-header-link">About</a>
+  <a href="./ourWork.html" class="large-header-link">Our Work</a>
 </nav>
-<a class="large-contact-btn" href="./Pages/contact.html">Contact Us</a>
+<a class="large-contact-btn" href="./contact.html">Contact Us</a>
 </header>
 `
 
