@@ -28,7 +28,7 @@ body::-webkit-scrollbar {
   }
 
   .small-home-hero {
-    height: calc(100vh - 185px);
+    height: 60vh;
   }
 
   .small-home-hero-logo {

@@ -1,0 +1,84 @@
+.about-us-title {
+  position: absolute;
+  color: #32a0fe;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: none;
+  border-radius: 10px;
+  padding: 10px 8px;
+}
+
+.about-section {
+  margin: auto;
+  margin-bottom: 25px;
+}
+
+@media screen and (min-width: 270px) {
+  .about-section {
+    width: 95%;
+  }
+
+  .about-us-topper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .small-hero-img {
+    width: 100%;
+  }
+
+  .small-about-us-title {
+    position: absolute;
+    color: #32a0fe;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    border-radius: 10px;
+    padding: 10px 8px;
+  }
+
+  .about-us-img {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 500px) {
+  .about-us-title {
+    font-size: 45px;
+  }
+
+  .about-section {
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    margin-top: 75px;
+    width: 80%;
+  }
+
+  .about-us-img {
+    width: 35%;
+  }
+
+  .about-details {
+    width: 50%;
+    font-size: 22px;
+    line-height: 28px;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .about-us-title {
+    font-size: 54px;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .about-us-title {
+    font-size: 65px;
+  }
+}
+
+@media screen and (min-width: 950px) {
+  .about-us-title {
+    font-size: 74px;
+  }
+}

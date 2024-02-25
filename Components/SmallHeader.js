@@ -200,13 +200,13 @@ template.innerHTML = `
     <p class="close-slideout">X</p>
   </div>
   <nav>
-    <a href="./Pages/allServices.html" class="menu-item">Services</a>
-    <a href="./Pages/ourWork.html" class="menu-item">Our Work</a>
-    <a href="./Pages/about.html" class="menu-item">About</a>
+    <a href="./allServices.html" class="menu-item">Services</a>
+    <a href="./ourWork.html" class="menu-item">Our Work</a>
+    <a href="./about.html" class="menu-item">About</a>
   </nav>
   <div class="slideout-cta-container">
     <h2 class="slideout-cta-title">Get In Touch With Us Today</h2>
-    <a class="slideout-cta-btn" href="./Pages/contact.html">Contact Us</a>  
+    <a class="slideout-cta-btn" href="./contact.html">Contact Us</a>  
   </div>
 </div>
 <div class="hamburger-menu">
@@ -214,7 +214,7 @@ template.innerHTML = `
   <div class="hamburger-bar"></div>
   <div class="hamburger-bar"></div>
 </div>
-<a class="contact-btn" href="./Pages/contact.html">Contact Us</a>
+<a class="contact-btn" href="./contact.html">Contact Us</a>
 </header>
 `
 
