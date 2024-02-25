@@ -9,22 +9,28 @@
 
 .about-section {
   margin: auto;
-  margin-bottom: 25px;
+  background-color: white;
 }
 
 @media screen and (min-width: 270px) {
   .about-section {
-    width: 95%;
+    width: 100%;
+    padding-bottom: 25px;
   }
 
   .about-us-topper {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 45px;
   }
 
-  .small-hero-img {
-    width: 100%;
+  .small-hero-img, .about-details {
+    width: 95%;
+  }
+
+  .about-details {
+    margin-left: 3%;
   }
 
   .small-about-us-title {
@@ -34,10 +40,18 @@
     border: none;
     border-radius: 10px;
     padding: 10px 8px;
+    font-size: 32px;
   }
 
   .about-us-img {
-    width: 100%;
+    display: none;
+  }
+
+  .about-us-img-small {
+    width: 95%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
@@ -54,7 +68,7 @@
     width: 80%;
   }
 
-  .about-us-img {
+  .about-us-img, .about-us-img-small {
     width: 35%;
   }
 
